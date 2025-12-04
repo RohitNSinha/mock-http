@@ -1,0 +1,74 @@
+# Mock HTTP Server Configuration Example
+# This file demonstrates all available features
+
+endpoints:
+  # Simple GET endpoint returning JSON
+  - path: /api/users
+    method: GET
+    status: 200
+    content_type: application/json
+    response:
+      users:
+        - id: 1
+          name: John Doe
+          email: john@example.com
+        - id: 2
+          name: Jane Smith
+          email: jane@example.com
+
+  # POST endpoint with 201 Created status
+  - path: /api/users
+    method: POST
+    status: 201
+    content_type: application/json
+    response:
+      id: 3
+      message: User created successfully
+
+  # Endpoint with query parameter substitution
+  - path: /api/greet
+    method: GET
+    status: 200
+    content_type: application/json
+    response:
+      message: "Hello, {name}!"
+      timestamp: "{time}"
+
+  # Simulated slow endpoint (2 second delay)
+  - path: /api/slow
+    method: GET
+    status: 200
+    delay: 2000
+    content_type: application/json
+    response:
+      message: This response was intentionally delayed
+
+  # Error response example
+  - path: /api/error
+    method: GET
+    status: 500
+    content_type: application/json
+    response:
+      error: Internal server error
+      code: ERR_INTERNAL
+
+  # Plain text response
+  - path: /health
+    method: GET
+    status: 200
+    content_type: text/plain
+    response: OK
+
+  # HTML response
+  - path: /
+    method: GET
+    status: 200
+    content_type: text/html
+    response: "<html><body><h1>Mock Server</h1></body></html>"
+
+  # DELETE endpoint
+  - path: /api/users/1
+    method: DELETE
+    status: 204
+    content_type: application/json
+    response: {}

@@ -1,0 +1,27 @@
+endpoints:
+  - path: /api/users
+    method: GET
+    status: 200
+    content_type: application/json
+    response:
+      users:
+        - id: 1
+          name: John Doe
+        - id: 2
+          name: Jane Smith
+  
+  - path: /api/user
+    method: GET
+    status: 200
+    content_type: application/json
+    response:
+      id: 1
+      name: "{name}"
+      email: "{email}"
+  
+  - path: /api/slow
+    method: GET
+    status: 200
+    delay: 2000
+    response:
+      message: This response was delayed
